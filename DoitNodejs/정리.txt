@@ -1,0 +1,22 @@
+ - 프로그램 설치
+    Node.js
+    VSCode
+
+
+
+npm init
+npm install
+npm install nconf --save
+
+/////////////////////////////////////////////
+// troubleshooting 
+/////////////////////////////////////////////
+
+- unable to verify the first certificate
+위 오류가 발생할 경우 아래와 같은 명령어 실행한 후 재실행 하면 된다.
+>>npm config set registry http://registry.npmjs.org/ --global
+
+ - VSCode에서 Node실행
+    .vscode/launch.jsonv편집
+    "configurations" - "program": "${workspaceFolder}\\ch02_08(실행파일명).js"
+
